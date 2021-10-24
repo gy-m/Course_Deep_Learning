@@ -24,7 +24,7 @@ Thie repository is based on the Technion course "046211 - Deep Learning" [046211
 	* Option 2 (Remotly, using Colab and it's provided GPU) - Open Colab website and upload the local jupyter notebooks.  
 
 ## Notes
-NTA
+The Installations instructions are based on the instructions which are part of the Technion's course (046211) mentioned above in the following [link]("https://github.com/taldatech/ee046211-deep-learning/blob/main/Setting%20Up%20The%20Working%20Environment.pdf")
 
 ## TODO
 Do the Course
