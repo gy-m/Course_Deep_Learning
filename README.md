@@ -7,19 +7,27 @@
 * [Repository status](#Repository-status)
 
 ## Overview
-TBD
+Thie repository is based on the Technion course "046211 - Deep Learning" [046211 - Deep Learning Course Reposiroty](https://github.com/taldatech/ee046211-deep-learning).
 
 ## Installations
-TBD
+* Miniconda - Installation from the official [Miniconda website](https://docs.conda.io/en/latest/miniconda.html).
+* Create the environment and make all the installations according to the given yaml in the repository: `conda env create -f environment.yml`
+* Activation of the environment: `conda activate deep_learning`
+* Installing PyTorch:
+	* PyTorch CPU: `conda install pytorch torchvision torchaudio cpuonly -c pytorch`
+	* PyTorch GPU (only if you have one): `conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch`
+	* TorchText (046211): `conda install -c pytorch torchtext`
 
 ## Usage
-TBD
+* Running the Jupyter:
+	* Option 1 (Locally) - Run `Jupyter-Lab` (From the jupyter directory: "Notes_JupyterLab" / "Notes_Colab" )
+	* Option 2 (Remotly, using Colab and it's provided GPU) - Open Colab website and upload the local jupyter notebooks.  
 
 ## Notes
-TBD
+NTA
 
 ## TODO
-TBD
+Do the Course
 
 ## Repository-status
-TBD
+Freezed - The have not been taken yet
